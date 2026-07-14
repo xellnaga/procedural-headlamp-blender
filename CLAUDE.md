@@ -4,7 +4,7 @@
 
 ## 프로젝트 개요
 
-JLR(재규어랜드로버) 스타일 헤드램프를 Blender Python API(bpy)로 절차적(procedural)으로
+자동차 헤드램프를 Blender Python API(bpy)로 절차적(procedural)으로
 모델링하고 헤드리스 환경에서 Cycles로 렌더링하는 프로젝트입니다.
 GUI 없이 스크립트 실행만으로 모델 생성 → 렌더링 → .blend 저장까지 완료됩니다.
 
@@ -41,4 +41,4 @@ blenv/bin/python headlamp_v2.py
 
 - Blender 5.x에서 `use_nodes = True`는 DeprecationWarning 발생 (6.0에서 제거 예정)
 - `Transmission Weight` 입력 이름은 Blender 4.0+ 기준 (구버전은 `Transmission`)
-- JLR 실제 차량 디자인은 지적재산이므로 이 모델은 스타일을 참고한 오리지널 형상임
+- 이 모델은 특정 차량을 복제하지 않은 오리지널 형상임
